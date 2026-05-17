@@ -1,1 +1,57 @@
+name: IMD District Balloon Click Test
 
+on:
+  workflow_dispatch:   # run manually from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10   # generous timeout — reloads page per district
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install playwright beautifulsoup4 lxml
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install chromium
+
+      - name: Run balloon click test
+        run: python scripts/test_district_balloon.py
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Commit and push results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add -f data/*.png || true
+          git add -f data/balloon_test_results.json || true
+
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit --allow-empty -m "test: balloon click results ${TIMESTAMP}"
+          git push
+
+      - name: Upload all test artifacts
+        if: always()   # upload even on failure — we want the screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: balloon-test-results
+          path: |
+            data/*.png
+            data/balloon_test_results.json
+          retention-days: 7
+          if-no-files-found: ignore
