@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-17 22:04 UTC",
+  "scraped_at": "2026-05-18 15:55 UTC",
   "url": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings_mc.php?id=10",
   "total": 8,
   "success": 8,
@@ -7,67 +7,67 @@
   "results": [
     {
       "district": "ANUGUL",
-      "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] ANUGUL\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "fill_color": "#FFFF00",
+      "balloon_text": "[.amcharts-balloon-div] ANUGUL\n\nLight rain: < 5 mm/hr\nLow cloud to ground Lightning probability ( < 30% probability of lightning occurrence)\n\nTime of issue: 2026-05-18\n2037 Hrs\nValid upto: 2337 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "CUTTACK",
       "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] CUTTACK\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "balloon_text": "[.amcharts-balloon-div] CUTTACK\n\nNo Warning\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "DHENKANAL",
-      "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] DHENKANAL\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "fill_color": "#FFFF00",
+      "balloon_text": "[.amcharts-balloon-div] DHENKANAL\n\nLight rain: < 5 mm/hr\nLow cloud to ground Lightning probability ( < 30% probability of lightning occurrence)\n\nTime of issue: 2026-05-18\n2037 Hrs\nValid upto: 2337 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "JAGATSINGHPUR",
       "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] JAGATSINGHPUR\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "balloon_text": "[.amcharts-balloon-div] JAGATSINGHPUR\n\nNo Warning\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "KENDRAPARHA",
-      "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] KENDRAPARHA\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "fill_color": "#FFFF00",
+      "balloon_text": "[.amcharts-balloon-div] KENDRAPARHA\n\nLight rain: < 5 mm/hr\nLight Thunderstorms with maximum surface wind speed less than 40 kmph\nLow cloud to ground Lightning probability ( < 30% probability of lightning occurrence)\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "KHORDHA",
       "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] KHORDHA\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "balloon_text": "[.amcharts-balloon-div] KHORDHA\n\nNo Warning\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "NAYAGARH",
       "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] NAYAGARH\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "balloon_text": "[.amcharts-balloon-div] NAYAGARH\n\nNo Warning\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     },
     {
       "district": "PURI",
       "fill_color": "#008000",
-      "balloon_text": "[.amcharts-balloon-div] PURI\n\nNo Warning\n\nTime of issue: 2026-05-18\n0100 Hrs\nValid upto: 0400 Hrs",
+      "balloon_text": "[.amcharts-balloon-div] PURI\n\nNo Warning\n\nTime of issue: 2026-05-18\n1900 Hrs\nValid upto: 2200 Hrs",
       "click_strategy": "hover",
       "error": "",
-      "scraped_at": "2026-05-17 22:04 UTC"
+      "scraped_at": "2026-05-18 15:55 UTC"
     }
   ]
 }
